@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/safahi/monero/external/miniupnp/miniupnpc/minixml.c
+string.h
+-
+minixml.h
+/home/safahi/monero/external/miniupnp/miniupnpc/minixml.h
+
+/home/safahi/monero/external/miniupnp/miniupnpc/minixml.h
+
+/home/safahi/monero/external/miniupnp/miniupnpc/minixmlvalid.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+minixml.h
+/home/safahi/monero/external/miniupnp/miniupnpc/minixml.h
+

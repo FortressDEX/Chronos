@@ -1,0 +1,2 @@
+/home/safahi/monero/build/Linux/master/release/src/crypto/wallet/CMakeFiles/CheckASM-ATT/CMakeFiles/rebuild_cache.dir
+/home/safahi/monero/build/Linux/master/release/src/crypto/wallet/CMakeFiles/CheckASM-ATT/CMakeFiles/edit_cache.dir

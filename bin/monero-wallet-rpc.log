@@ -1,0 +1,248 @@
+2022-04-19 12:34:13.773	    7f6e57fe6a00	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-04-19 12:34:13.773	    7f6e57fe6a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2022-04-19 12:34:13.773	    7f6e57fe6a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2022-04-19 12:34:13.774	    7f6e57fe6a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Oxygen Orion' (v0.17.0.0-53bf62d11)
+2022-04-19 12:34:13.774	    7f6e57fe6a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2022-04-19 12:34:13.774	    7f6e57fe6a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	WARNING: You may not have a high enough lockable memory limit, see ulimit -l
+2022-04-19 12:34:13.774	    7f6e57fe6a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4518	Must specify --wallet-file or --generate-from-json or --wallet-dir
+2022-04-19 12:34:54.043	    7f723c633a00	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-04-19 12:34:54.044	    7f723c633a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2022-04-19 12:34:54.044	    7f723c633a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2022-04-19 12:34:54.044	    7f723c633a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Oxygen Orion' (v0.17.0.0-53bf62d11)
+2022-04-19 12:34:54.044	    7f723c633a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2022-04-19 12:34:54.044	    7f723c633a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	WARNING: You may not have a high enough lockable memory limit, see ulimit -l
+2022-04-19 12:34:54.044	    7f723c633a00	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4522	Loading wallet...
+2022-04-19 12:34:54.044	    7f723c633a00	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:524	!password_prompter. THROW EXCEPTION: tools::error::wallet_internal_error
+2022-04-19 12:34:54.044	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: tools::error::wallet_internal_error
+2022-04-19 12:34:54.044	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:34:54.045	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x55cd8215abc5]:__cxa_throw+0x113) [0x55cd8215abc5]
+2022-04-19 12:34:54.045	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x4454e0) [0x55cd8243e4e0] 
+2022-04-19 12:34:54.045	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x395a6f) [0x55cd8238ea6f] 
+2022-04-19 12:34:54.045	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x41b548) [0x55cd82414548] 
+2022-04-19 12:34:54.045	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x307bc0) [0x55cd82300bc0] 
+2022-04-19 12:34:54.045	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x30a17d) [0x55cd8230317d] 
+2022-04-19 12:34:54.045	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x1bd72b) [0x55cd821b672b] 
+2022-04-19 12:34:54.045	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8]  0xf3) [0x7f723e7d60b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f723e7d60b3]
+2022-04-19 12:34:54.045	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] ./monero-wallet-rpc(+0x1cd95e) [0x55cd821c695e] 
+2022-04-19 12:34:54.045	    7f723c633a00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:34:54.045	    7f723c633a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4583	Wallet initialization failed: no password specified; use --prompt-for-password to prompt for a password
+2022-04-19 12:36:00.562	    7f39b397ea00	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-04-19 12:36:00.562	    7f39b397ea00	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2022-04-19 12:36:00.562	    7f39b397ea00	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2022-04-19 12:36:00.562	    7f39b397ea00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Oxygen Orion' (v0.17.0.0-53bf62d11)
+2022-04-19 12:36:00.562	    7f39b397ea00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2022-04-19 12:36:00.562	    7f39b397ea00	INFO	msgwriter	src/common/scoped_message_writer.h:102	WARNING: You may not have a high enough lockable memory limit, see ulimit -l
+2022-04-19 12:36:00.562	    7f39b397ea00	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4522	Loading wallet...
+2022-04-19 12:36:01.406	    7f39b397ea00	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5421	Loaded wallet keys file, with public address: 45ay3Tib8SFiGTLLkxdENA5nVk2UAn7mbg1Lppz5s9st6qREM8qsLetfUQhkGWDmEmZSKDZj1EN4bQRkoLQ98msDB39iho4
+2022-04-19 12:36:01.644	    7f39b397ea00	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3515	reorg_depth > m_max_reorg_depth. THROW EXCEPTION: error::reorg_depth_error
+2022-04-19 12:36:01.644	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: tools::error::reorg_depth_error
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x55a2aaab2bc5]:__cxa_throw+0x113) [0x55a2aaab2bc5]
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x44aab4) [0x55a2aad9bab4] 
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x3e25d5) [0x55a2aad335d5] 
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x3e3981) [0x55a2aad34981] 
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x3e39ce) [0x55a2aad349ce] 
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x3085a0) [0x55a2aac595a0] 
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x30a17d) [0x55a2aac5b17d] 
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x1bd72b) [0x55a2aab0e72b] 
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9]  0xf3) [0x7f39b5b210b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f39b5b210b3]
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1cd95e) [0x55a2aab1e95e] 
+2022-04-19 12:36:01.656	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:36:01.656	    7f39b397ea00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4569	Initial refresh failed: reorg exceeds maximum allowed depth, use 'set max-reorg-depth N' to allow it, reorg depth: 2182500
+2022-04-19 12:36:01.658	    7f39b397ea00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:319	Failed to setup background mining: BUSY
+2022-04-19 12:36:01.658	    7f39b397ea00	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28080
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: boost::wrapexcept<boost::system::system_error>
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x55a2aaab2bc5]:__cxa_throw+0x113) [0x55a2aaab2bc5]
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x123293) [0x55a2aaa74293] 
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x222eb3) [0x55a2aab73eb3] 
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x2fb7c2) [0x55a2aac4c7c2] 
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x2fe30d) [0x55a2aac4f30d] 
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x2fee63) [0x55a2aac4fe63] 
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x1efe71) [0x55a2aab40e71] 
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x3081df) [0x55a2aac591df] 
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] ./monero-wallet-rpc(+0x30a17d) [0x55a2aac5b17d] 
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1bd72b) [0x55a2aab0e72b] 
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [11]  0xf3) [0x7f39b5b210b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f39b5b210b3]
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [12] ./monero-wallet-rpc(+0x1cd95e) [0x55a2aab1e95e] 
+2022-04-19 12:36:01.892	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: std::runtime_error
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x55a2aaab2bc5]:__cxa_throw+0x113) [0x55a2aaab2bc5]
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x2fb446) [0x55a2aac4c446] 
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x2fe30d) [0x55a2aac4f30d] 
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x2fee63) [0x55a2aac4fe63] 
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x1efe71) [0x55a2aab40e71] 
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x3081df) [0x55a2aac591df] 
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x30a17d) [0x55a2aac5b17d] 
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x1bd72b) [0x55a2aab0e72b] 
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9]  0xf3) [0x7f39b5b210b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f39b5b210b3]
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1cd95e) [0x55a2aab1e95e] 
+2022-04-19 12:36:01.893	    7f39b397ea00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:36:01.893	    7f39b397ea00	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1079	Error starting server: Failed to bind IPv4 (set to required)
+2022-04-19 12:36:01.893	    7f39b397ea00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4589	Failed to initialize wallet RPC server
+2022-04-19 12:36:24.268	    7f8f0f806a00	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-04-19 12:36:24.268	    7f8f0f806a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2022-04-19 12:36:24.268	    7f8f0f806a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2022-04-19 12:36:24.268	    7f8f0f806a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Oxygen Orion' (v0.17.0.0-53bf62d11)
+2022-04-19 12:36:24.268	    7f8f0f806a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2022-04-19 12:36:24.268	    7f8f0f806a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	WARNING: You may not have a high enough lockable memory limit, see ulimit -l
+2022-04-19 12:36:24.268	    7f8f0f806a00	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4522	Loading wallet...
+2022-04-19 12:36:25.426	    7f8f0f806a00	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5421	Loaded wallet keys file, with public address: 45ay3Tib8SFiGTLLkxdENA5nVk2UAn7mbg1Lppz5s9st6qREM8qsLetfUQhkGWDmEmZSKDZj1EN4bQRkoLQ98msDB39iho4
+2022-04-19 12:36:25.678	    7f8f0f806a00	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3515	reorg_depth > m_max_reorg_depth. THROW EXCEPTION: error::reorg_depth_error
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: tools::error::reorg_depth_error
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x5634d9821bc5]:__cxa_throw+0x113) [0x5634d9821bc5]
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x44aab4) [0x5634d9b0aab4] 
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x3e25d5) [0x5634d9aa25d5] 
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x3e3981) [0x5634d9aa3981] 
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x3e39ce) [0x5634d9aa39ce] 
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x3085a0) [0x5634d99c85a0] 
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x30a17d) [0x5634d99ca17d] 
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x1bd72b) [0x5634d987d72b] 
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9]  0xf3) [0x7f8f119a90b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f8f119a90b3]
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1cd95e) [0x5634d988d95e] 
+2022-04-19 12:36:25.678	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:36:25.678	    7f8f0f806a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4569	Initial refresh failed: reorg exceeds maximum allowed depth, use 'set max-reorg-depth N' to allow it, reorg depth: 2182500
+2022-04-19 12:36:25.679	    7f8f0f806a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:319	Failed to setup background mining: BUSY
+2022-04-19 12:36:25.679	    7f8f0f806a00	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28081
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: boost::wrapexcept<boost::system::system_error>
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x5634d9821bc5]:__cxa_throw+0x113) [0x5634d9821bc5]
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x123293) [0x5634d97e3293] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x222eb3) [0x5634d98e2eb3] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x2fb7c2) [0x5634d99bb7c2] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x2fe30d) [0x5634d99be30d] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x2fee63) [0x5634d99bee63] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x1efe71) [0x5634d98afe71] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x3081df) [0x5634d99c81df] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] ./monero-wallet-rpc(+0x30a17d) [0x5634d99ca17d] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1bd72b) [0x5634d987d72b] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [11]  0xf3) [0x7f8f119a90b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f8f119a90b3]
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [12] ./monero-wallet-rpc(+0x1cd95e) [0x5634d988d95e] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: std::runtime_error
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x5634d9821bc5]:__cxa_throw+0x113) [0x5634d9821bc5]
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x2fb446) [0x5634d99bb446] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x2fe30d) [0x5634d99be30d] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x2fee63) [0x5634d99bee63] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x1efe71) [0x5634d98afe71] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x3081df) [0x5634d99c81df] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x30a17d) [0x5634d99ca17d] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x1bd72b) [0x5634d987d72b] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9]  0xf3) [0x7f8f119a90b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f8f119a90b3]
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1cd95e) [0x5634d988d95e] 
+2022-04-19 12:36:26.365	    7f8f0f806a00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:36:26.365	    7f8f0f806a00	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1079	Error starting server: Failed to bind IPv4 (set to required)
+2022-04-19 12:36:26.365	    7f8f0f806a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4589	Failed to initialize wallet RPC server
+2022-04-19 12:36:39.783	    7ff1af4e3a00	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-04-19 12:36:39.783	    7ff1af4e3a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2022-04-19 12:36:39.783	    7ff1af4e3a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2022-04-19 12:36:39.783	    7ff1af4e3a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Oxygen Orion' (v0.17.0.0-53bf62d11)
+2022-04-19 12:36:39.783	    7ff1af4e3a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2022-04-19 12:36:39.783	    7ff1af4e3a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	WARNING: You may not have a high enough lockable memory limit, see ulimit -l
+2022-04-19 12:36:39.784	    7ff1af4e3a00	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4522	Loading wallet...
+2022-04-19 12:36:40.465	    7ff1af4e3a00	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5421	Loaded wallet keys file, with public address: 45ay3Tib8SFiGTLLkxdENA5nVk2UAn7mbg1Lppz5s9st6qREM8qsLetfUQhkGWDmEmZSKDZj1EN4bQRkoLQ98msDB39iho4
+2022-04-19 12:36:40.696	    7ff1af4e3a00	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3515	reorg_depth > m_max_reorg_depth. THROW EXCEPTION: error::reorg_depth_error
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: tools::error::reorg_depth_error
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x55e694450bc5]:__cxa_throw+0x113) [0x55e694450bc5]
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x44aab4) [0x55e694739ab4] 
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x3e25d5) [0x55e6946d15d5] 
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x3e3981) [0x55e6946d2981] 
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x3e39ce) [0x55e6946d29ce] 
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x3085a0) [0x55e6945f75a0] 
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x30a17d) [0x55e6945f917d] 
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x1bd72b) [0x55e6944ac72b] 
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9]  0xf3) [0x7ff1b16860b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7ff1b16860b3]
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1cd95e) [0x55e6944bc95e] 
+2022-04-19 12:36:40.696	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:36:40.696	    7ff1af4e3a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4569	Initial refresh failed: reorg exceeds maximum allowed depth, use 'set max-reorg-depth N' to allow it, reorg depth: 2182500
+2022-04-19 12:36:40.697	    7ff1af4e3a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:319	Failed to setup background mining: BUSY
+2022-04-19 12:36:40.697	    7ff1af4e3a00	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28081
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: boost::wrapexcept<boost::system::system_error>
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x55e694450bc5]:__cxa_throw+0x113) [0x55e694450bc5]
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x123293) [0x55e694412293] 
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x222eb3) [0x55e694511eb3] 
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x2fb7c2) [0x55e6945ea7c2] 
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x2fe30d) [0x55e6945ed30d] 
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x2fee63) [0x55e6945ede63] 
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x1efe71) [0x55e6944dee71] 
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x3081df) [0x55e6945f71df] 
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] ./monero-wallet-rpc(+0x30a17d) [0x55e6945f917d] 
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1bd72b) [0x55e6944ac72b] 
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [11]  0xf3) [0x7ff1b16860b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7ff1b16860b3]
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [12] ./monero-wallet-rpc(+0x1cd95e) [0x55e6944bc95e] 
+2022-04-19 12:36:40.877	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: std::runtime_error
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x55e694450bc5]:__cxa_throw+0x113) [0x55e694450bc5]
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x2fb446) [0x55e6945ea446] 
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x2fe30d) [0x55e6945ed30d] 
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x2fee63) [0x55e6945ede63] 
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x1efe71) [0x55e6944dee71] 
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x3081df) [0x55e6945f71df] 
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x30a17d) [0x55e6945f917d] 
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x1bd72b) [0x55e6944ac72b] 
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9]  0xf3) [0x7ff1b16860b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7ff1b16860b3]
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1cd95e) [0x55e6944bc95e] 
+2022-04-19 12:36:40.878	    7ff1af4e3a00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:36:40.878	    7ff1af4e3a00	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1079	Error starting server: Failed to bind IPv4 (set to required)
+2022-04-19 12:36:40.878	    7ff1af4e3a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4589	Failed to initialize wallet RPC server
+2022-04-19 12:37:18.708	    7f3574cd5a00	INFO	logging	contrib/epee/src/mlog.cpp:273	New log categories: *:WARNING,net:FATAL,net.http:FATAL,net.ssl:FATAL,net.p2p:FATAL,net.cn:FATAL,daemon.rpc:FATAL,global:INFO,verify:FATAL,serialization:FATAL,daemon.rpc.payment:ERROR,stacktrace:INFO,logging:INFO,msgwriter:INFO
+2022-04-19 12:37:18.708	    7f3574cd5a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	This is the RPC monero wallet. It needs to connect to a monero
+2022-04-19 12:37:18.708	    7f3574cd5a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	daemon to work correctly.
+2022-04-19 12:37:18.708	    7f3574cd5a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Monero 'Oxygen Orion' (v0.17.0.0-53bf62d11)
+2022-04-19 12:37:18.708	    7f3574cd5a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	Logging to ./monero-wallet-rpc.log
+2022-04-19 12:37:18.708	    7f3574cd5a00	INFO	msgwriter	src/common/scoped_message_writer.h:102	WARNING: You may not have a high enough lockable memory limit, see ulimit -l
+2022-04-19 12:37:18.708	    7f3574cd5a00	WARNING	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4522	Loading wallet...
+2022-04-19 12:37:19.754	    7f3574cd5a00	WARNING	wallet.wallet2	src/wallet/wallet2.cpp:5421	Loaded wallet keys file, with public address: 45ay3Tib8SFiGTLLkxdENA5nVk2UAn7mbg1Lppz5s9st6qREM8qsLetfUQhkGWDmEmZSKDZj1EN4bQRkoLQ98msDB39iho4
+2022-04-19 12:37:19.991	    7f3574cd5a00	ERROR	wallet.wallet2	src/wallet/wallet2.cpp:3515	reorg_depth > m_max_reorg_depth. THROW EXCEPTION: error::reorg_depth_error
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: tools::error::reorg_depth_error
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x558bd70a8bc5]:__cxa_throw+0x113) [0x558bd70a8bc5]
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x44aab4) [0x558bd7391ab4] 
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x3e25d5) [0x558bd73295d5] 
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x3e3981) [0x558bd732a981] 
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x3e39ce) [0x558bd732a9ce] 
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x3085a0) [0x558bd724f5a0] 
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x30a17d) [0x558bd725117d] 
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x1bd72b) [0x558bd710472b] 
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9]  0xf3) [0x7f3576e780b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f3576e780b3]
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1cd95e) [0x558bd711495e] 
+2022-04-19 12:37:19.991	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:37:19.991	    7f3574cd5a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4569	Initial refresh failed: reorg exceeds maximum allowed depth, use 'set max-reorg-depth N' to allow it, reorg depth: 2182500
+2022-04-19 12:37:19.992	    7f3574cd5a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:319	Failed to setup background mining: BUSY
+2022-04-19 12:37:19.992	    7f3574cd5a00	INFO	global	contrib/epee/include/net/http_server_impl_base.h:79	Binding on 127.0.0.1 (IPv4):28081
+2022-04-19 12:37:20.563	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: boost::wrapexcept<boost::system::system_error>
+2022-04-19 12:37:20.563	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x558bd70a8bc5]:__cxa_throw+0x113) [0x558bd70a8bc5]
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x123293) [0x558bd706a293] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x222eb3) [0x558bd7169eb3] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x2fb7c2) [0x558bd72427c2] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x2fe30d) [0x558bd724530d] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x2fee63) [0x558bd7245e63] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x1efe71) [0x558bd7136e71] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x3081df) [0x558bd724f1df] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9] ./monero-wallet-rpc(+0x30a17d) [0x558bd725117d] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1bd72b) [0x558bd710472b] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [11]  0xf3) [0x7f3576e780b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f3576e780b3]
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [12] ./monero-wallet-rpc(+0x1cd95e) [0x558bd711495e] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:133	Exception: std::runtime_error
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:134	Unwound call stack:
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [1]  0x113) [0x558bd70a8bc5]:__cxa_throw+0x113) [0x558bd70a8bc5]
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [2] ./monero-wallet-rpc(+0x2fb446) [0x558bd7242446] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [3] ./monero-wallet-rpc(+0x2fe30d) [0x558bd724530d] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [4] ./monero-wallet-rpc(+0x2fee63) [0x558bd7245e63] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [5] ./monero-wallet-rpc(+0x1efe71) [0x558bd7136e71] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [6] ./monero-wallet-rpc(+0x3081df) [0x558bd724f1df] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [7] ./monero-wallet-rpc(+0x30a17d) [0x558bd725117d] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [8] ./monero-wallet-rpc(+0x1bd72b) [0x558bd710472b] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [9]  0xf3) [0x7f3576e780b3]:_64-linux-gnu/libc.so.6(__libc_start_main+0xf3) [0x7f3576e780b3]
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	    [10] ./monero-wallet-rpc(+0x1cd95e) [0x558bd711495e] 
+2022-04-19 12:37:20.564	    7f3574cd5a00	INFO	stacktrace	src/common/stack_trace.cpp:172	
+2022-04-19 12:37:20.564	    7f3574cd5a00	FATAL	net	contrib/epee/include/net/abstract_tcp_server2.inl:1079	Error starting server: Failed to bind IPv4 (set to required)
+2022-04-19 12:37:20.564	    7f3574cd5a00	ERROR	wallet.rpc	src/wallet/wallet_rpc_server.cpp:4589	Failed to initialize wallet RPC server
